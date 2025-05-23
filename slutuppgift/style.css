@@ -1,0 +1,212 @@
+/* Grundinställningar */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #171a21;
+  color: #ffffff;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Sidomeny */
+.sidebar {
+  width: 200px;
+  background-color: #1b2838;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 8px;
+  background-color: transparent;
+}
+
+/* Huvudinnehåll */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #171a21;
+}
+
+/* Login-formulär */
+.login-section {
+  background-color: #1b2838;
+  padding: 30px;
+  border-radius: 0;
+  max-width: 400px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.login-section h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login-section input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.login-section button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 0;
+  background-color: #009cd2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#loginMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Quick Launch */
+.quick-launch h2 {
+  margin-top: 0;
+  color: white;
+}
+
+.thumbnail-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.thumbnail-row img {
+  width: 130px;
+  height: 130px;
+  border-radius: 0;
+}
+
+/* Featured spel - med cards */
+.featured {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #1b2838;
+  border: 1px solid #2a475e;
+  border-radius: 0;
+  padding: 25px;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.card button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 0;
+  background-color: #009cd2;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Övrig text */
+.info-text {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.lorem p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Login-sida */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #171a21;
+}
+
+.login-box {
+  background-color: #1b2838;
+  padding: 30px;
+  border-radius: 0;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.login-box button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 0;
+  background-color: #009cd2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#loginMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.back-link {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #009cd2;
+}
